@@ -1,0 +1,75 @@
+*::selection {
+  color: white;
+  background-color: gold;
+}
+
+body {
+  caret-color: skyblue;
+  color: black;
+}
+
+#todolist {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: dashed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+
+h2 {
+  margin: 20px;
+  padding: 250px;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: dashed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85%;
+  font-size: 20px;
+}
+
+hr {
+  width: 96%;
+}
+
+.btn {
+  background-color: skyblue;
+  color: white;
+  font-size: 16px;
+  margin: 10px 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 20px;
+}
+
+input:focus {
+  background-color: wheat;
+}
+
+button:active {
+  background-color: tomato;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
